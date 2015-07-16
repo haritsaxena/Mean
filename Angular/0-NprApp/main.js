@@ -1,27 +1,24 @@
 // Code goes here
 (function() {
 
-  var myapp = angular.module("App", []);
+  'use strict';
+  var myapp = angular.module('App', []);
   
   var mainController = function($scope, $http) {
     var apiKey = 'MDE5ODI5MDExMDE0MzY0Mzk0NjY2NDVhNQ001', 
-      nprUrl = 'http://api.npr.org/query?id=61&fields=relatedLink,title,byline,text,audio,image,pullQuote,all&output=JSON';
+    nprUrl = 'http://api.npr.org/query?id=61&fields=relatedLink,title,byline,text,audio,image,pullQuote,all&output=JSON';
     
     $scope.audio = document.createElement('audio');
     $scope.playing = false;
 
-    var onsuccess = function(data, status) {
+    var onsuccess = function(data) {
       $scope.programs = data.list.story;
-    };
-
-    var onfailure = function(data, status) {
-      //$scope.programs = data.list.story;
     };
     
     $http({
-      method: "JSONP",
+      method: 'JSONP',
       url: nprUrl + '&apiKey=' + apiKey + '&callback=JSON_CALLBACK'
-    }).success(onsuccess).error(onfailure);
+    }).success(onsuccess);
     
     $scope.play = function(program){
       if ($scope.playing) 
@@ -38,8 +35,8 @@
 
     };
     
-    $scope.name ='default';
+    $scope.name='default';
   };
-
-  myapp.controller("MainController", ["$scope", "$http", mainController]);
+  
+  myapp.controller('MainController', ['$scope', '$http', mainController]);
 }());
