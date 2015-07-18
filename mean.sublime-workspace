@@ -8,18 +8,10 @@
 	"buffers":
 	[
 		{
-			"file": "Angular/0-NprApp/index.html",
+			"file": "Angular/6-Service/index.html",
 			"settings":
 			{
-				"buffer_size": 535,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "Angular/0-NprApp/main.js",
-			"settings":
-			{
-				"buffer_size": 1108,
+				"buffer_size": 389,
 				"line_ending": "Unix"
 			}
 		}
@@ -31,10 +23,26 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 392.0,
-		"last_filter": "",
+		"height": 243.0,
+		"last_filter": "package ins",
 		"selected_items":
 		[
+			[
+				"package ins",
+				"Package Control: List Packages"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			],
 			[
 				"remov",
 				"Package Control: Remove Package"
@@ -44,15 +52,7 @@
 				"Snippet: Anonymous Function"
 			],
 			[
-				"insta",
-				"Package Control: Install Package"
-			],
-			[
 				"Package Co",
-				"Package Control: Install Package"
-			],
-			[
-				"install",
 				"Package Control: Install Package"
 			],
 			[
@@ -68,13 +68,14 @@
 				"Preferences: Settings - Default"
 			]
 		],
-		"width": 416.0
+		"width": 496.0
 	},
 	"console":
 	{
 		"height": 483.0,
 		"history":
 		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
 			"clS",
 			"cls",
 			"clear",
@@ -92,11 +93,18 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Mean/Angular",
-		"/C/Mean/Angular/0-NprApp"
+		"/home/harit/work/Mean/Angular",
+		"/home/harit/work/Mean/Angular/6-Service",
+		"/home/harit/work/Mean/Angular/6-Service/2-Service"
 	],
 	"file_history":
 	[
+		"/home/harit/work/Mean/Angular/6-Service/index.html",
+		"/home/harit/work/Mean/Angular/4-Directives/main.js",
+		"/home/harit/work/Mean/Angular/0-NprApp/index.html",
+		"/home/harit/work/Mean/Angular/0-NprApp/main.js",
+		"/home/harit/work/Mean/Angular/4-Directives/index.html",
+		"/home/harit/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
 		"/C/Mean/Angular/0-NprApp/main.js",
 		"/C/Mean/Angular/0-NprApp/index.html",
 		"/C/Users/Harit_2/AppData/Roaming/Sublime Text 3/Packages/JSHint Gutter/.jshintrc",
@@ -109,7 +117,7 @@
 	],
 	"find":
 	{
-		"height": 26.0
+		"height": 25.0
 	},
 	"find_in_files":
 	{
@@ -153,47 +161,11 @@
 			[
 				{
 					"buffer": 0,
-					"file": "Angular/0-NprApp/index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 535,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								535,
-								535
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 0,
-			"sheets":
-			[
-				{
-					"buffer": 1,
-					"file": "Angular/0-NprApp/main.js",
+					"file": "Angular/6-Service/index.html",
 					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 1108,
+						"buffer_size": 389,
 						"regions":
 						{
 						},
@@ -206,15 +178,13 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -222,11 +192,11 @@
 	],
 	"incremental_find":
 	{
-		"height": 26.0
+		"height": 25.0
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 33.0
 	},
 	"layout":
 	{
@@ -237,18 +207,11 @@
 				0,
 				1,
 				1
-			],
-			[
-				1,
-				0,
-				2,
-				1
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.5,
 			1.0
 		],
 		"rows":
@@ -266,7 +229,7 @@
 	"project": "mean.sublime-project",
 	"replace":
 	{
-		"height": 48.0
+		"height": 46.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -305,12 +268,6 @@
 				0,
 				0,
 				1,
-				1
-			],
-			[
-				1,
-				0,
-				2,
 				1
 			]
 		]
