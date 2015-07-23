@@ -3,15 +3,59 @@
 	{
 		"selected_items":
 		[
+			[
+				"fun",
+				"fun	Function"
+			],
+			[
+				"con",
+				"controller	AngularJS"
+			],
+			[
+				"ng",
+				"ng-click	AngularJS"
+			],
+			[
+				"in",
+				"input"
+			],
+			[
+				"if",
+				"ife	if … else"
+			],
+			[
+				"msg",
+				"msgs"
+			],
+			[
+				"f",
+				"factory	AngularJS"
+			],
+			[
+				"$sc",
+				"$scope	AngularJS(DI)"
+			],
+			[
+				"co",
+				"controller	AngularJS"
+			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "Angular/6-Service/index.html",
+			"file": "Angular/6-Service/3-Github/index.html",
 			"settings":
 			{
-				"buffer_size": 389,
+				"buffer_size": 656,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Angular/6-Service/3-Github/main.js",
+			"settings":
+			{
+				"buffer_size": 798,
 				"line_ending": "Unix"
 			}
 		}
@@ -94,14 +138,28 @@
 	"expanded_folders":
 	[
 		"/home/harit/work/Mean/Angular",
+		"/home/harit/work/Mean/Angular/0-NprApp",
 		"/home/harit/work/Mean/Angular/6-Service",
-		"/home/harit/work/Mean/Angular/6-Service/2-Service"
+		"/home/harit/work/Mean/Angular/6-Service/1-basic",
+		"/home/harit/work/Mean/Angular/6-Service/2-SimpleService",
+		"/home/harit/work/Mean/Angular/6-Service/3-Github"
 	],
 	"file_history":
 	[
+		"/home/harit/work/Mean/Angular/6-Service/2-SimpleService/main.js",
+		"/home/harit/work/Mean/Angular/6-Service/1-basic/main.js",
+		"/home/harit/work/Mean/Angular/0-NprApp/index.html",
+		"/home/harit/work/Mean/Angular/6-Service/2-SimpleService/index.html",
+		"/home/harit/work/Mean/Angular/6-Service/2-Service/index.html",
+		"/home/harit/work/Mean/Angular/6-Service/2-Service/main.js",
+		"/home/harit/.config/sublime-text-3/Packages/JSHint Gutter/JSHint.sublime-settings",
+		"/home/harit/.config/sublime-text-3/Packages/JSHint Gutter/.jshintrc",
+		"/home/harit/.config/sublime-text-3/Packages/JSHint Gutter/Default (Linux).sublime-keymap",
+		"/home/harit/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/harit/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/harit/work/Mean/Angular/6-Service/1-basic/index.html",
 		"/home/harit/work/Mean/Angular/6-Service/index.html",
 		"/home/harit/work/Mean/Angular/4-Directives/main.js",
-		"/home/harit/work/Mean/Angular/0-NprApp/index.html",
 		"/home/harit/work/Mean/Angular/0-NprApp/main.js",
 		"/home/harit/work/Mean/Angular/4-Directives/index.html",
 		"/home/harit/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
@@ -117,7 +175,7 @@
 	],
 	"find":
 	{
-		"height": 25.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -131,6 +189,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"'",
+			"unsaved changes",
 			"\"",
 			"(\"",
 			"'",
@@ -161,19 +221,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "Angular/6-Service/index.html",
-					"semi_transient": true,
+					"file": "Angular/6-Service/3-Github/index.html",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 389,
+						"buffer_size": 656,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								656,
+								656
 							]
 						],
 						"settings":
@@ -181,10 +241,44 @@
 							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 34.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"file": "Angular/6-Service/3-Github/main.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 798,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								798,
+								798
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -207,11 +301,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.467182662539,
 			1.0
 		],
 		"rows":
@@ -247,6 +348,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"",
+				"~/work/Mean/mean.sublime-project"
+			]
 		],
 		"width": 380.0
 	},
@@ -259,18 +364,9 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
-		"last_automatic_layout":
-		[
-			[
-				0,
-				0,
-				1,
-				1
-			]
-		]
 	},
 	"show_minimap": true,
 	"show_open_files": true,
