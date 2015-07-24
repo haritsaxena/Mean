@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+
+<html ng-app="myApp">
+<head>
+	<script data-require="angular.js@1.4.0" data-semver="1.4.0" src="https://code.angularjs.org/1.4.0/angular.js"></script>
+	<script src="main.js"></script>
+</head>
+
+<body>
+	<div ng-controller="maincontroller"> 
+	<input type="text" ng:model="message" placeholder="input message"> 
+	<input type="button" ng-click="runalert(message)">
+	</div>
+	 <p>(you have to click 3 times to see an alert)</p>
+</body>
+
+</html>
