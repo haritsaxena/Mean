@@ -4,29 +4,38 @@
 		"selected_items":
 		[
 			[
+				"c",
+				"controller	AngularJS"
+			],
+			[
+				"$sc",
+				"$scope	AngularJS(DI)"
+			],
+			[
+				"mainCon",
+				"mainController($scope)	main.js"
+			],
+			[
 				"con",
-				"controller	main.js"
+				"controller($scope, $element, $attrs, $transclude)	main.js"
+			],
+			[
+				"mainController",
+				"mainController($scope, $http)	main.js"
+			],
+			[
+				"fun",
+				"fun	Function"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "/C/Mean/Angular/5-CustomDirectives/index.html",
+			"file": "/C/Mean/Node/1-HelloWorld/main.js",
 			"settings":
 			{
-				"buffer_size": 427,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "(function() {\n	'use strict';\n	var myapp = angular.module('App',[]);\n\n	myapp.controller('maincontroller', ['$scope', function($scope){\n		$scope.customer = { name: 'naimo', address: '700 montroe street'};\n	}]);\n\n	myapp.directive('mydirective', ['', function(){\n		// Runs during compile\n		return {\n			// name: '',\n			// priority: 1,\n			// terminal: true,\n			// scope: {}, // {} = isolate, true = child, false/undefined = no change\n			// controller: function($scope, $element, $attrs, $transclude) {},\n			// require: 'ngModel', // Array = multiple requires, ? = optional, ^ = check parent elements\n			// restrict: 'A', // E = Element, A = Attribute, C = Class, M = Comment\n			template: 'Name : {{customer.name}} address: {{customer.address}}'\n			// templateUrl: '',\n			// replace: true,\n			// transclude: true,\n			// compile: function(tElement, tAttrs, function transclude(function(scope, cloneLinkingFn){ return function linking(scope, elm, attrs){}})),\n			\n		};\n	}]);\n}());\n",
-			"file": "/C/Mean/Angular/5-CustomDirectives/main.js",
-			"file_size": 999,
-			"file_write_time": 130816074994470930,
-			"settings":
-			{
-				"buffer_size": 972,
+				"buffer_size": 424,
 				"line_ending": "Windows"
 			}
 		}
@@ -103,20 +112,28 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Mean/Angular",
+		"/C/Mean/Angular/0-NprApp",
 		"/C/Mean/Angular/5-CustomDirectives",
-		"/C/Mean/Angular/5-CustomDirectives/1-simple"
+		"/C/Mean/Angular/5-CustomDirectives/2-PassingAttrib",
+		"/C/Mean/Angular/5-CustomDirectives/3-Scoping",
+		"/C/Mean/Node",
+		"/C/Mean/Node/1-HelloWorld"
 	],
 	"file_history":
 	[
-		"/C/Mean/Angular/5-CustomDirectives/1-simple/index.html",
+		"/C/Users/Harit_2/AppData/Roaming/Sublime Text 3/Packages/User/node.sublime-build",
+		"/C/Mean/Angular/0-NprApp/index.html",
+		"/C/Mean/Angular/0-NprApp/main.js",
+		"/C/Mean/Angular/5-CustomDirectives/3-Scoping/index.html",
+		"/C/Mean/Angular/5-CustomDirectives/3-Scoping/main.js",
+		"/C/Mean/Angular/5-CustomDirectives/2-PassingAttrib/main.js",
 		"/C/Mean/Angular/5-CustomDirectives/1-simple/main.js",
+		"/C/Mean/Angular/5-CustomDirectives/2-PassingAttrib/index.html",
+		"/C/Mean/Angular/5-CustomDirectives/1-simple/index.html",
 		"/C/Mean/Angular/5-CustomDirectives/index.html",
 		"/C/Users/Harit_2/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
 		"/C/Users/Harit_2/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
 		"/C/Mean/Angular/5-CustomDirectives/main.js",
-		"/C/Mean/Angular/0-NprApp/index.html",
-		"/C/Mean/Angular/0-NprApp/main.js",
 		"/C/Mean/Angular/0-NprApp/styles.css",
 		"/C/Users/Harit_2/AppData/Roaming/Sublime Text 3/Packages/JSHint Gutter/.jshintrc",
 		"/C/Users/Harit_2/Desktop/RDP/5320b1d9-316e-49a4-b013-6dd9c1400dcf.json",
@@ -177,24 +194,25 @@
 			[
 				{
 					"buffer": 0,
-					"file": "/C/Mean/Angular/5-CustomDirectives/index.html",
+					"file": "/C/Mean/Node/1-HelloWorld/main.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 427,
+						"buffer_size": 424,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								427,
-								427
+								424,
+								424
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
+							"open_with_edit": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -206,37 +224,8 @@
 			]
 		},
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 1,
-					"file": "/C/Mean/Angular/5-CustomDirectives/main.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 972,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								966,
-								966
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -268,7 +257,7 @@
 		"cols":
 		[
 			0.0,
-			0.382559158633,
+			0.446393762183,
 			1.0
 		],
 		"rows":
@@ -278,6 +267,10 @@
 		]
 	},
 	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 295.0
+	},
 	"output.find_results":
 	{
 		"height": 0.0
@@ -328,7 +321,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 139.0,
+	"side_bar_width": 254.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
