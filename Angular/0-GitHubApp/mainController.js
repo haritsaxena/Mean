@@ -2,15 +2,15 @@
 	
 	'use strict';
 	angular.module('GithubViewer')
-	.controller('mainController', ['$scope','$interval', function($scope, $interval){
+	.controller('mainController', ['$scope','$interval','$location', 
+	function($scope, $interval, $location){
 		
 		var counter;
 		var decrementcounter = function(){
 			$scope.countdown -= 1;			
 			if ($scope.countdown < 1){
-				$interval.cancel(counter);
-				$scope.countdown = null;
-			}
+				$scope.search($scope.username);
+		}
 
 		};
 
@@ -18,7 +18,18 @@
 		 	counter = $interval(decrementcounter, 1000);
 		};
 
+		$scope.search = function(username){
+			if (counter)
+			{
+				$interval.cancel(counter);
+				$scope.countdown = null;
+					
+			}
+			$location.path('/user/' + username);
+		};
+		
 		$scope.countdown = 5;
+		$scope.username = 'angular';
 		startcountdown();
 	}]);
 }());

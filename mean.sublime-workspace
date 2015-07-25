@@ -8,8 +8,24 @@
 				"fun	Function"
 			],
 			[
+				"$in",
+				"$interval	AngularJS"
+			],
+			[
 				"con",
 				"controller	AngularJS"
+			],
+			[
+				"ng-s",
+				"ng-submit	AngularJS"
+			],
+			[
+				"fu",
+				"fun	Function"
+			],
+			[
+				"$rout",
+				"$routeProvider	AngularJS"
 			],
 			[
 				"ng",
@@ -44,18 +60,18 @@
 	"buffers":
 	[
 		{
-			"file": "Angular/6-Service/3-Github/index.html",
+			"file": "Angular/0-GitHubApp/app.js",
 			"settings":
 			{
-				"buffer_size": 656,
+				"buffer_size": 302,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "Angular/6-Service/3-Github/main.js",
+			"file": "Angular/0-GitHubApp/mainController.js",
 			"settings":
 			{
-				"buffer_size": 798,
+				"buffer_size": 355,
 				"line_ending": "Unix"
 			}
 		}
@@ -67,10 +83,42 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 243.0,
-		"last_filter": "package ins",
+		"height": 222.0,
+		"last_filter": "instal",
 		"selected_items":
 		[
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: List Packages"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: list",
+				"Package Control: List Packages"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"list ",
+				"Package Control: List Packages"
+			],
 			[
 				"package ins",
 				"Package Control: List Packages"
@@ -78,14 +126,6 @@
 			[
 				"insta",
 				"Package Control: Install Package"
-			],
-			[
-				"install",
-				"Package Control: Install Package"
-			],
-			[
-				"pack",
-				"Preferences: Browse Packages"
 			],
 			[
 				"remov",
@@ -112,7 +152,7 @@
 				"Preferences: Settings - Default"
 			]
 		],
-		"width": 496.0
+		"width": 530.0
 	},
 	"console":
 	{
@@ -138,25 +178,28 @@
 	"expanded_folders":
 	[
 		"/home/harit/work/Mean/Angular",
-		"/home/harit/work/Mean/Angular/0-NprApp",
-		"/home/harit/work/Mean/Angular/6-Service",
-		"/home/harit/work/Mean/Angular/6-Service/1-basic",
-		"/home/harit/work/Mean/Angular/6-Service/2-SimpleService",
-		"/home/harit/work/Mean/Angular/6-Service/3-Github"
+		"/home/harit/work/Mean/Angular/0-GitHubApp"
 	],
 	"file_history":
 	[
+		"/home/harit/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/harit/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/harit/.config/sublime-text-3/Packages/User/SublimeLinter.sublime-settings",
+		"/home/harit/work/Mean/Angular/0-GitHubApp/index.html",
+		"/home/harit/work/Mean/Angular/0-GitHubApp/main.html",
+		"/home/harit/work/Mean/Angular/0-GitHubApp/main.js",
+		"/home/harit/work/Mean/Angular/0-GitHubApp/mainController.js",
+		"/home/harit/work/Mean/Angular/0-NprApp/index.html",
+		"/home/harit/work/Mean/Angular/6-Service/3-Github/index.html",
+		"/home/harit/work/Mean/Angular/6-Service/3-Github/main.js",
 		"/home/harit/work/Mean/Angular/6-Service/2-SimpleService/main.js",
 		"/home/harit/work/Mean/Angular/6-Service/1-basic/main.js",
-		"/home/harit/work/Mean/Angular/0-NprApp/index.html",
 		"/home/harit/work/Mean/Angular/6-Service/2-SimpleService/index.html",
 		"/home/harit/work/Mean/Angular/6-Service/2-Service/index.html",
 		"/home/harit/work/Mean/Angular/6-Service/2-Service/main.js",
 		"/home/harit/.config/sublime-text-3/Packages/JSHint Gutter/JSHint.sublime-settings",
 		"/home/harit/.config/sublime-text-3/Packages/JSHint Gutter/.jshintrc",
 		"/home/harit/.config/sublime-text-3/Packages/JSHint Gutter/Default (Linux).sublime-keymap",
-		"/home/harit/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
-		"/home/harit/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
 		"/home/harit/work/Mean/Angular/6-Service/1-basic/index.html",
 		"/home/harit/work/Mean/Angular/6-Service/index.html",
 		"/home/harit/work/Mean/Angular/4-Directives/main.js",
@@ -189,6 +232,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"tab",
+			"highlight ",
+			"'",
+			"\"",
 			"'",
 			"unsaved changes",
 			"\"",
@@ -216,58 +263,24 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "Angular/6-Service/3-Github/index.html",
+					"file": "Angular/0-GitHubApp/app.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 656,
+						"buffer_size": 302,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								656,
-								656
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 34.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 0,
-			"sheets":
-			[
-				{
-					"buffer": 1,
-					"file": "Angular/6-Service/3-Github/main.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 798,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								798,
-								798
+								302,
+								302
 							]
 						],
 						"settings":
@@ -280,7 +293,40 @@
 					},
 					"stack_index": 1,
 					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Angular/0-GitHubApp/mainController.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 355,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								355,
+								355
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
 				}
+			]
+		},
+		{
+			"sheets":
+			[
 			]
 		}
 	],
@@ -312,7 +358,7 @@
 		"cols":
 		[
 			0.0,
-			0.467182662539,
+			0.676470588236,
 			1.0
 		],
 		"rows":
@@ -364,7 +410,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},

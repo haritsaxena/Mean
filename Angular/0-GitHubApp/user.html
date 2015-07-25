@@ -1,0 +1,28 @@
+<div>
+	{{error}}
+	<h2>{{User.name}}</h2>
+	<select ng-model="sortorder">
+		<option value="name">Name</option>
+		<option value="-stargazers_count">Stars</option>
+		<option value="language">Language</option>
+	</select>
+
+	<table>
+		<thead>
+			<tr>
+				<th>Name</th>
+				<th>Stars</th>
+				<th>language</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr ng-repeat='repo in repos | orderBy:sortorder'>
+				<td>{{repo.name}}</td>
+				<td>{{repo.stargazers_count}}</td>
+				<td>{{repo.language}}</td>
+			</tr>
+		</tbody>
+	</table>
+	<p></p>
+	<a href="#.main">Back to search</a>
+</div>
