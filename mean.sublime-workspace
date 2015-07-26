@@ -4,8 +4,68 @@
 		"selected_items":
 		[
 			[
+				"op",
+				"option	Tag"
+			],
+			[
+				"ta",
+				"thead	Tag"
+			],
+			[
+				"ge",
+				"getRepos"
+			],
+			[
+				"git",
+				"gitHub"
+			],
+			[
+				"DE",
+				"deferred"
+			],
+			[
+				"us",
+				"userController"
+			],
+			[
+				"re",
+				"response"
+			],
+			[
 				"fun",
-				"fun	Function"
+				"function"
+			],
+			[
+				"$ro",
+				"$routeParams	AngularJS"
+			],
+			[
+				"$route",
+				"$routeParams	AngularJS"
+			],
+			[
+				"$scope",
+				"$scope	AngularJS"
+			],
+			[
+				"C",
+				"controller	AngularJS"
+			],
+			[
+				"SE",
+				"search"
+			],
+			[
+				"coun",
+				"counter"
+			],
+			[
+				"user",
+				"username"
+			],
+			[
+				"$loc",
+				"$location	AngularJS"
 			],
 			[
 				"$in",
@@ -60,10 +120,34 @@
 	"buffers":
 	[
 		{
-			"file": "Angular/0-GitHubApp/app.js",
+			"file": "Angular/0-GitHubApp/user.html",
 			"settings":
 			{
-				"buffer_size": 302,
+				"buffer_size": 566,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Angular/0-GitHubApp/url.txt",
+			"settings":
+			{
+				"buffer_size": 257,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Angular/0-GitHubApp/index.html",
+			"settings":
+			{
+				"buffer_size": 584,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Angular/0-GitHubApp/main.html",
+			"settings":
+			{
+				"buffer_size": 207,
 				"line_ending": "Unix"
 			}
 		},
@@ -71,7 +155,31 @@
 			"file": "Angular/0-GitHubApp/mainController.js",
 			"settings":
 			{
-				"buffer_size": 355,
+				"buffer_size": 686,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Angular/0-GitHubApp/app.js",
+			"settings":
+			{
+				"buffer_size": 397,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Angular/0-GitHubApp/gitHub.js",
+			"settings":
+			{
+				"buffer_size": 1004,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Angular/0-GitHubApp/userController.js",
+			"settings":
+			{
+				"buffer_size": 825,
 				"line_ending": "Unix"
 			}
 		}
@@ -178,22 +286,33 @@
 	"expanded_folders":
 	[
 		"/home/harit/work/Mean/Angular",
-		"/home/harit/work/Mean/Angular/0-GitHubApp"
+		"/home/harit/work/Mean/Angular/0-GitHubApp",
+		"/home/harit/work/Mean/Angular/0-NprApp",
+		"/home/harit/work/Mean/Angular/2-Events-ng",
+		"/home/harit/work/Mean/Angular/4-Directives",
+		"/home/harit/work/Mean/Angular/6-Service",
+		"/home/harit/work/Mean/Angular/6-Service/1-basic",
+		"/home/harit/work/Mean/Angular/6-Service/2-SimpleService",
+		"/home/harit/work/Mean/Angular/6-Service/3-Github"
 	],
 	"file_history":
 	[
+		"/home/harit/work/Mean/Angular/0-GitHubApp/main.html",
+		"/home/harit/.config/sublime-text-3/Packages/User/SublimeLinter.sublime-settings",
+		"/home/harit/work/Mean/Angular/0-GitHubApp/app.js",
+		"/home/harit/work/Mean/Angular/4-Directives/main.js",
+		"/home/harit/work/Mean/Angular/2-Events-ng/main.js",
+		"/home/harit/work/Mean/Angular/6-Service/1-basic/main.js",
+		"/home/harit/work/Mean/Angular/6-Service/3-Github/main.js",
+		"/home/harit/work/Mean/Angular/6-Service/2-SimpleService/main.js",
+		"/home/harit/work/Mean/Angular/0-GitHubApp/url.txt",
+		"/home/harit/work/Mean/Angular/6-Service/3-Github/index.html",
 		"/home/harit/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
 		"/home/harit/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
-		"/home/harit/.config/sublime-text-3/Packages/User/SublimeLinter.sublime-settings",
 		"/home/harit/work/Mean/Angular/0-GitHubApp/index.html",
-		"/home/harit/work/Mean/Angular/0-GitHubApp/main.html",
 		"/home/harit/work/Mean/Angular/0-GitHubApp/main.js",
 		"/home/harit/work/Mean/Angular/0-GitHubApp/mainController.js",
 		"/home/harit/work/Mean/Angular/0-NprApp/index.html",
-		"/home/harit/work/Mean/Angular/6-Service/3-Github/index.html",
-		"/home/harit/work/Mean/Angular/6-Service/3-Github/main.js",
-		"/home/harit/work/Mean/Angular/6-Service/2-SimpleService/main.js",
-		"/home/harit/work/Mean/Angular/6-Service/1-basic/main.js",
 		"/home/harit/work/Mean/Angular/6-Service/2-SimpleService/index.html",
 		"/home/harit/work/Mean/Angular/6-Service/2-Service/index.html",
 		"/home/harit/work/Mean/Angular/6-Service/2-Service/main.js",
@@ -202,7 +321,6 @@
 		"/home/harit/.config/sublime-text-3/Packages/JSHint Gutter/Default (Linux).sublime-keymap",
 		"/home/harit/work/Mean/Angular/6-Service/1-basic/index.html",
 		"/home/harit/work/Mean/Angular/6-Service/index.html",
-		"/home/harit/work/Mean/Angular/4-Directives/main.js",
 		"/home/harit/work/Mean/Angular/0-NprApp/main.js",
 		"/home/harit/work/Mean/Angular/4-Directives/index.html",
 		"/home/harit/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
@@ -232,6 +350,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"data",
+			"\"",
 			"tab",
 			"highlight ",
 			"'",
@@ -268,24 +388,24 @@
 			[
 				{
 					"buffer": 0,
-					"file": "Angular/0-GitHubApp/app.js",
+					"file": "Angular/0-GitHubApp/user.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 302,
+						"buffer_size": 566,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								302,
-								302
+								566,
+								566
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -296,19 +416,109 @@
 				},
 				{
 					"buffer": 1,
-					"file": "Angular/0-GitHubApp/mainController.js",
+					"file": "Angular/0-GitHubApp/url.txt",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 355,
+						"buffer_size": 257,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								355,
-								355
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "Angular/0-GitHubApp/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 584,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								584,
+								584
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "Angular/0-GitHubApp/main.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 207,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 4,
+					"file": "Angular/0-GitHubApp/mainController.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 686,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								686,
+								686
 							]
 						],
 						"settings":
@@ -319,14 +529,94 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "Angular/0-GitHubApp/app.js",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 397,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "Angular/0-GitHubApp/gitHub.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1004,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1004,
+								1004
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "Angular/0-GitHubApp/userController.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 825,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								825,
+								825
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
 					"type": "text"
 				}
-			]
-		},
-		{
-			"sheets":
-			[
 			]
 		}
 	],
@@ -358,7 +648,7 @@
 		"cols":
 		[
 			0.0,
-			0.676470588236,
+			0.423219814242,
 			1.0
 		],
 		"rows":

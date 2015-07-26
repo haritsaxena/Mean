@@ -24,7 +24,7 @@
 					});
 		};
 
-		var reposAsync = function(repoUrl){
+		var getAsync = function(repoUrl){
 			$log.log(repoUrl);
 			return $http.get(repoUrl).
 				then(function(response){
@@ -32,9 +32,18 @@
 			});
 		};
 
+		var individualReposAsync = function(repoName, username){
+			//https://api.github.com/repos/angular/assert
+			return $http.get('https://api.github.com/repos/' + username + '/'+ repoName).
+				then(function(response){
+					return response.data;
+			});
+		};
+
 		return {
 			getUser: usersAsync,
-			getRepos: reposAsync
+			get: getAsync,
+			getRepo : individualReposAsync
 		};
 	};
 	

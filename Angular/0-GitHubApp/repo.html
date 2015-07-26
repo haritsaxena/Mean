@@ -1,0 +1,14 @@
+<div>
+	<h2>{{repoName}} - {{userName}}</h2>
+	{{error}}
+	<div>
+		Issues Count : {{IssueCount}}
+	</div>
+	<table>
+		<tr ng-repeat="contr in contributors">
+			<td><img src="{{contr.avatar_url}}"></img></td>
+			<td>{{contr.login}}</td>
+		</tr>
+	</table>
+	
+</div>

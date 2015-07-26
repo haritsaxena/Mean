@@ -17,12 +17,12 @@
 		</thead>
 		<tbody>
 			<tr ng-repeat='repo in repos | orderBy:sortorder'>
-				<td>{{repo.name}}</td>
+				<td><a href="#/repo/{{username}}/{{repo.name}}">{{repo.name}}</a></td>
 				<td>{{repo.stargazers_count}}</td>
 				<td>{{repo.language}}</td>
 			</tr>
 		</tbody>
 	</table>
 	<p></p>
-	<a href="#.main">Back to search</a>
+	<a href="#/main">Back to search</a>
 </div>

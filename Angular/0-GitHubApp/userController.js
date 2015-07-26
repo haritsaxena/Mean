@@ -6,7 +6,7 @@
 		var onUserComplete = function(data){
 			//$scope.repos = response.data.repos_url;
 			$scope.User = data;
-			gitHub.getRepos(data.repos_url).then(onReposComplete, onError);
+			gitHub.get(data.repos_url).then(onReposComplete, onError);
 		};
 
 		var onError = function(reason){
