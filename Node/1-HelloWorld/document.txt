@@ -1,0 +1,9 @@
+Node is also huge on streams and streaming. You can think of streams as being like arrays, but instead of having data distributed over space, streams can be thought of as data distributed over time. By bringing data in chunk by chunk, the developer is given the ability to handle that data as it comes in instead of waiting for it all to arrive before acting. Here’s how you would stream resource.json:
+
+A data event is fired whenever a new chunk of data is ready, and an end event is fired when all the chunks have been loaded. A chunk can vary in size, depending on the type of data. This low-level access to the read stream allows you to efficiently deal with data as it’s read instead of waiting for it all to buffer in memory.
+
+Node also provides writable streams that you can write chunks of data to. One of those is the response (res) object when a request happens on an HTTP server.
+
+Readable and writable streams can be connected to make pipes, much like you can do with the | (pipe) operator in shell scripting. This provides an efficient way to write out data as soon as it’s ready, without waiting for the complete resource to be read and then written out.
+
+Let’s use our previous HTTP server to illustrate streaming an image to a client:
