@@ -1,3 +1,4 @@
+(function(){
 'use strict';
 
 var http = require('http');
@@ -7,7 +8,8 @@ var mime = require('mime');
 var cache = {};
 
 
-//taskkill /IM node.exe - kills node 
+//taskkill /IM node.exe - kills node - windows
+// killall node - linux
 var send404 = function(response){
 	response.writeHead(404, {'Content-Type': 'text/plain'});
 	response.write('Error: 404 file not found');
@@ -58,3 +60,4 @@ server.listen(9000, function() {
 
 var chatServer = require('./lib/chat_server');
 chatServer.listen(server);
+}());

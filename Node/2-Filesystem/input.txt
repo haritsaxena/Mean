@@ -1,0 +1,1 @@
+These two examples explain the concept of blocking and non-blocking calls. First example shows that program blocks until it reads the file and then only it proceeds to end the program wh
