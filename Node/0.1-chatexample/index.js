@@ -1,0 +1,38 @@
+var app = require('express')();
+var http = require('http').Server(app);
+var io = require('socket.io')(http);
+
+app.get('/', function(req, res){
+  res.sendFile(__dirname + '/index.html');
+});
+
+io.on('connection', function(socket){
+  socket.on('chat message', function(msg){
+  	console.log(msg);
+    io.emit('chat message', msg);
+    socket.emit('chat message', "this is a test");
+  });
+});
+
+http.listen(3000, function(){
+  console.log('listening on *:3000');
+});
+
+
+ // // send to current request socket client
+ // socket.emit('message', "this is a test");
+
+ // // sending to all clients, include sender
+ // io.sockets.emit('message', "this is a test");
+
+ // // sending to all clients except sender
+ // socket.broadcast.emit('message', "this is a test");
+
+ // // sending to all clients in 'game' room(channel) except sender
+ // socket.broadcast.to('game').emit('message', 'nice game');
+
+ //  // sending to all clients in 'game' room(channel), include sender
+ // io.sockets.in('game').emit('message', 'cool game');
+
+ // // sending to individual socketid
+ // io.sockets.socket(socketid).emit('message', 'for your eyes only');

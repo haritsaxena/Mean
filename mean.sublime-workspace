@@ -4,6 +4,46 @@
 		"selected_items":
 		[
 			[
+				"sco",
+				"socket"
+			],
+			[
+				"cons",
+				"console"
+			],
+			[
+				"serv",
+				"server"
+			],
+			[
+				"if",
+				"iffy	iffy"
+			],
+			[
+				"ev",
+				"evnt"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"ng-re",
+				"ng-repeat	AngularJS"
+			],
+			[
+				"th",
+				"thead	Tag"
+			],
+			[
+				"rep",
+				"repoName"
+			],
+			[
+				"h",
+				"h2	Tag"
+			],
+			[
 				"op",
 				"option	Tag"
 			],
@@ -72,10 +112,6 @@
 				"$interval	AngularJS"
 			],
 			[
-				"con",
-				"controller	AngularJS"
-			],
-			[
 				"ng-s",
 				"ng-submit	AngularJS"
 			],
@@ -94,10 +130,6 @@
 			[
 				"in",
 				"input"
-			],
-			[
-				"if",
-				"ife	if … else"
 			],
 			[
 				"msg",
@@ -120,66 +152,26 @@
 	"buffers":
 	[
 		{
-			"file": "Angular/0-GitHubApp/user.html",
+			"file": "Node/3-NodeFunda/2-EventEmitters/1-evnt.js",
 			"settings":
 			{
-				"buffer_size": 566,
+				"buffer_size": 273,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "Angular/0-GitHubApp/url.txt",
+			"file": "Node/3-NodeFunda/2-EventEmitters/pubsub.js",
 			"settings":
 			{
-				"buffer_size": 257,
+				"buffer_size": 707,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "Angular/0-GitHubApp/index.html",
+			"file": "Node/0-ChatServer/server.js",
 			"settings":
 			{
-				"buffer_size": 584,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "Angular/0-GitHubApp/main.html",
-			"settings":
-			{
-				"buffer_size": 207,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "Angular/0-GitHubApp/mainController.js",
-			"settings":
-			{
-				"buffer_size": 686,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "Angular/0-GitHubApp/app.js",
-			"settings":
-			{
-				"buffer_size": 397,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "Angular/0-GitHubApp/gitHub.js",
-			"settings":
-			{
-				"buffer_size": 1004,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "Angular/0-GitHubApp/userController.js",
-			"settings":
-			{
-				"buffer_size": 825,
+				"buffer_size": 1374,
 				"line_ending": "Unix"
 			}
 		}
@@ -287,31 +279,53 @@
 	[
 		"/home/harit/work/Mean/Angular",
 		"/home/harit/work/Mean/Angular/0-GitHubApp",
-		"/home/harit/work/Mean/Angular/0-NprApp",
-		"/home/harit/work/Mean/Angular/2-Events-ng",
-		"/home/harit/work/Mean/Angular/4-Directives",
-		"/home/harit/work/Mean/Angular/6-Service",
-		"/home/harit/work/Mean/Angular/6-Service/1-basic",
-		"/home/harit/work/Mean/Angular/6-Service/2-SimpleService",
-		"/home/harit/work/Mean/Angular/6-Service/3-Github"
+		"/home/harit/work/Mean/Node",
+		"/home/harit/work/Mean/Node/0-ChatServer",
+		"/home/harit/work/Mean/Node/2-Filesystem",
+		"/home/harit/work/Mean/Node/3-NodeFunda",
+		"/home/harit/work/Mean/Node/3-NodeFunda/2-EventEmitters"
 	],
 	"file_history":
 	[
+		"/home/harit/.config/sublime-text-3/Packages/User/JavaScript.sublime-settings",
+		"/home/harit/.config/sublime-text-3/Packages/User/iffy.sublime-snippet",
+		"/home/harit/work/Mean/Node/3-NodeFunda/nodemodules/currency.js",
+		"/home/harit/work/Mean/Node/3-NodeFunda/nodemodules/test-currency.js",
+		"/home/harit/work/Mean/Node/node_modules/socket.io/package.json",
+		"/home/harit/work/Mean/Node/0-ChatServer/server.js",
+		"/home/harit/work/Mean/Node/0.1-chatexample/index.js",
+		"/home/harit/work/Mean/Node/2-Filesystem/input.txt",
+		"/home/harit/work/Mean/Node/2-Filesystem/main.js",
+		"/home/harit/work/Mean/Node/0-ChatServer/lib/chat_server.js",
+		"/home/harit/work/Mean/Node/0.1-chatexample/index.html",
+		"/home/harit/work/Mean/Node/0-ChatServer/public/javascripts/chat.js",
+		"/home/harit/work/Mean/Node/0-ChatServer/public/javascripts/chat_ui.js",
+		"/home/harit/work/Mean/Node/0.1-chatexample/package.json",
+		"/home/harit/work/Mean/Node/0-ChatServer/public/index.html",
 		"/home/harit/work/Mean/Angular/0-GitHubApp/main.html",
+		"/home/harit/work/Mean/Angular/0-GitHubApp/index.html",
 		"/home/harit/.config/sublime-text-3/Packages/User/SublimeLinter.sublime-settings",
+		"/home/harit/.config/sublime-text-3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/home/harit/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/harit/.config/sublime-text-3/Packages/User/JSON.sublime-settings",
+		"/home/harit/.config/sublime-text-3/Packages/User/node.sublime-build",
+		"/home/harit/work/Mean/Angular/0-GitHubApp/user.html",
+		"/home/harit/work/Mean/Angular/0-GitHubApp/mainController.js",
 		"/home/harit/work/Mean/Angular/0-GitHubApp/app.js",
+		"/home/harit/work/Mean/Angular/0-GitHubApp/repoController.js",
+		"/home/harit/work/Mean/Angular/0-GitHubApp/gitHub.js",
+		"/home/harit/work/Mean/Node/1-HelloWorld/main.js",
+		"/home/harit/work/Mean/Angular/0-GitHubApp/repo.html",
+		"/home/harit/work/Mean/Angular/0-GitHubApp/userController.js",
+		"/home/harit/work/Mean/Angular/0-GitHubApp/url.txt",
 		"/home/harit/work/Mean/Angular/4-Directives/main.js",
 		"/home/harit/work/Mean/Angular/2-Events-ng/main.js",
 		"/home/harit/work/Mean/Angular/6-Service/1-basic/main.js",
 		"/home/harit/work/Mean/Angular/6-Service/3-Github/main.js",
 		"/home/harit/work/Mean/Angular/6-Service/2-SimpleService/main.js",
-		"/home/harit/work/Mean/Angular/0-GitHubApp/url.txt",
 		"/home/harit/work/Mean/Angular/6-Service/3-Github/index.html",
-		"/home/harit/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
 		"/home/harit/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
-		"/home/harit/work/Mean/Angular/0-GitHubApp/index.html",
 		"/home/harit/work/Mean/Angular/0-GitHubApp/main.js",
-		"/home/harit/work/Mean/Angular/0-GitHubApp/mainController.js",
 		"/home/harit/work/Mean/Angular/0-NprApp/index.html",
 		"/home/harit/work/Mean/Angular/6-Service/2-SimpleService/index.html",
 		"/home/harit/work/Mean/Angular/6-Service/2-Service/index.html",
@@ -350,6 +364,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"main",
+			"toTwoDecimal",
+			"emit",
+			"repo",
 			"data",
 			"\"",
 			"tab",
@@ -388,137 +406,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "Angular/0-GitHubApp/user.html",
+					"file": "Node/3-NodeFunda/2-EventEmitters/1-evnt.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 566,
+						"buffer_size": 273,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								566,
-								566
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "Angular/0-GitHubApp/url.txt",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 257,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "Angular/0-GitHubApp/index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 584,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								584,
-								584
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "Angular/0-GitHubApp/main.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 207,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 3,
-			"sheets":
-			[
-				{
-					"buffer": 4,
-					"file": "Angular/0-GitHubApp/mainController.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 686,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								686,
-								686
+								273,
+								273
 							]
 						],
 						"settings":
@@ -529,16 +429,44 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "Angular/0-GitHubApp/app.js",
-					"semi_transient": true,
+					"buffer": 1,
+					"file": "Node/3-NodeFunda/2-EventEmitters/pubsub.js",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 397,
+						"buffer_size": 707,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								595,
+								595
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "Node/0-ChatServer/server.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1374,
 						"regions":
 						{
 						},
@@ -554,67 +482,11 @@
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.x": -0.0,
+						"translation.y": 561.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "Angular/0-GitHubApp/gitHub.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1004,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1004,
-								1004
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "Angular/0-GitHubApp/userController.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 825,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								825,
-								825
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -637,18 +509,11 @@
 				0,
 				1,
 				1
-			],
-			[
-				1,
-				0,
-				2,
-				1
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.423219814242,
 			1.0
 		],
 		"rows":
@@ -658,6 +523,10 @@
 		]
 	},
 	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 314.0
+	},
 	"output.find_results":
 	{
 		"height": 0.0
@@ -712,6 +581,6 @@
 	"status_bar_visible": true,
 	"template_settings":
 	{
-		"max_columns": 2
+		"max_columns": 1
 	}
 }
