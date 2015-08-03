@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"co",
+				"console"
+			],
+			[
+				"s",
+				"subscriptions"
+			],
+			[
+				"cl",
+				"clients"
+			],
+			[
 				"sco",
 				"socket"
 			],
@@ -142,10 +154,6 @@
 			[
 				"$sc",
 				"$scope	AngularJS(DI)"
-			],
-			[
-				"co",
-				"controller	AngularJS"
 			]
 		]
 	},
@@ -163,7 +171,7 @@
 			"file": "Node/3-NodeFunda/2-EventEmitters/pubsub.js",
 			"settings":
 			{
-				"buffer_size": 707,
+				"buffer_size": 1583,
 				"line_ending": "Unix"
 			}
 		},
@@ -277,7 +285,6 @@
 	},
 	"expanded_folders":
 	[
-		"/home/harit/work/Mean/Angular",
 		"/home/harit/work/Mean/Angular/0-GitHubApp",
 		"/home/harit/work/Mean/Node",
 		"/home/harit/work/Mean/Node/0-ChatServer",
@@ -438,15 +445,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 707,
+						"buffer_size": 1583,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								595,
-								595
+								976,
+								976
 							]
 						],
 						"settings":
@@ -525,7 +532,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 314.0
+		"height": 211.0
 	},
 	"output.find_results":
 	{
