@@ -4,12 +4,12 @@
 		"selected_items":
 		[
 			[
-				"co",
-				"console"
+				"s",
+				"shift"
 			],
 			[
-				"s",
-				"subscriptions"
+				"co",
+				"console"
 			],
 			[
 				"cl",
@@ -160,26 +160,29 @@
 	"buffers":
 	[
 		{
-			"file": "Node/3-NodeFunda/2-EventEmitters/1-evnt.js",
+			"contents": "(function(){\n  'use strict';\n\n  var fs = require('fs');\n  var request = require('request');\n  var htmlparser = require('htmlparser');\n  var configFilename = './rss_feeds.txt';\n\n  function checkForRSSFile () {\n    fs.exists(configFilename, function(exists) {\n      if (!exists)\n        return next(new Error('Missing RSS file: ' + configFilename));\n\n      next(null, configFilename);\n    });\n  }\n\n  function readRSSFile (configFilename) {\n    fs.readFile(configFilename, function(err, feedList) {\n      if (err) return next(err);\n\n      feedList = feedList\n      .toString()\n      .replace(/^\\s+|\\s+$/g, '')\n      .split(\"\\n\");\n      //console.log(feedList);\n      var random = Math.floor(Math.random()*feedList.length);\n      next(null, feedList[random]);\n    });\n  }\n\n  function downloadRSSFeed (feedUrl) {\n    request({uri: feedUrl}, function(err, res, body) {\n      if (err) return next(err);\n      if (res.statusCode != 200)\n        return next(new Error('Abnormal response status code'));\n\n      next(null, body);\n    });\n  }\n\n  function parseRSSFeed (rss) {\n    var handler = new htmlparser.RssHandler();\n    var parser = new htmlparser.Parser(handler);\n    parser.parseComplete(rss);\n    //console.log(rss);\n    // the items element is part of the feed.\n    if (!handler.dom.items.length)\n      return next(new Error('No RSS items found'));\n     //console.log(rss);\n    var item = handler.dom.items.shift();\n    console.log(item.title);\n    console.log(item.link);\n  }\n\n  var tasks = [ checkForRSSFile,\n  readRSSFile,\n  downloadRSSFeed,\n  parseRSSFeed ];\n\n  function next(err, result) {\n    if (err) throw err;\n\n    var currentTask = tasks.shift();\n    //console.log(currentTask);\n\n    if (currentTask) {\n      //console.log(result);\n      currentTask(result);\n    }\n  }\n\n  next();\n}());\n",
+			"file": "Node/3-NodeFunda/3-SerialFlow/random_story.js",
+			"file_size": 1812,
+			"file_write_time": 130830930971810385,
 			"settings":
 			{
-				"buffer_size": 273,
+				"buffer_size": 1795,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "Node/3-NodeFunda/2-EventEmitters/pubsub.js",
+			"file": "Node/3-NodeFunda/3-SerialFlow/returnedxml.xml",
 			"settings":
 			{
-				"buffer_size": 1583,
+				"buffer_size": 151440,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "Node/0-ChatServer/server.js",
+			"file": "Node/3-NodeFunda/3-SerialFlow/rss_feeds.txt",
 			"settings":
 			{
-				"buffer_size": 1374,
+				"buffer_size": 34,
 				"line_ending": "Unix"
 			}
 		}
@@ -285,21 +288,25 @@
 	},
 	"expanded_folders":
 	[
-		"/home/harit/work/Mean/Angular/0-GitHubApp",
 		"/home/harit/work/Mean/Node",
 		"/home/harit/work/Mean/Node/0-ChatServer",
 		"/home/harit/work/Mean/Node/2-Filesystem",
 		"/home/harit/work/Mean/Node/3-NodeFunda",
-		"/home/harit/work/Mean/Node/3-NodeFunda/2-EventEmitters"
+		"/home/harit/work/Mean/Node/3-NodeFunda/2-EventEmitters",
+		"/home/harit/work/Mean/Node/3-NodeFunda/3-SerialFlow"
 	],
 	"file_history":
 	[
+		"/home/harit/work/Mean/Node/3-NodeFunda/3-SerialFlow/returnedxml.xml",
+		"/home/harit/work/Mean/Node/3-NodeFunda/2-EventEmitters/pubsub.js",
+		"/home/harit/work/Mean/Node/3-NodeFunda/2-EventEmitters/1-evnt.js",
+		"/home/harit/work/Mean/Node/3-NodeFunda/3-SerialFlow/random_story.js",
+		"/home/harit/work/Mean/Node/0-ChatServer/server.js",
 		"/home/harit/.config/sublime-text-3/Packages/User/JavaScript.sublime-settings",
 		"/home/harit/.config/sublime-text-3/Packages/User/iffy.sublime-snippet",
 		"/home/harit/work/Mean/Node/3-NodeFunda/nodemodules/currency.js",
 		"/home/harit/work/Mean/Node/3-NodeFunda/nodemodules/test-currency.js",
 		"/home/harit/work/Mean/Node/node_modules/socket.io/package.json",
-		"/home/harit/work/Mean/Node/0-ChatServer/server.js",
 		"/home/harit/work/Mean/Node/0.1-chatexample/index.js",
 		"/home/harit/work/Mean/Node/2-Filesystem/input.txt",
 		"/home/harit/work/Mean/Node/2-Filesystem/main.js",
@@ -408,92 +415,95 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "Node/3-NodeFunda/2-EventEmitters/1-evnt.js",
+					"file": "Node/3-NodeFunda/3-SerialFlow/random_story.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 273,
+						"buffer_size": 1795,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								273,
-								273
+								1655,
+								1655
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "Node/3-NodeFunda/2-EventEmitters/pubsub.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1583,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								976,
-								976
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 408.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "Node/0-ChatServer/server.js",
+					"buffer": 1,
+					"file": "Node/3-NodeFunda/3-SerialFlow/returnedxml.xml",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1374,
+						"buffer_size": 151440,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								151440,
+								151440
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/XML/XML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
-						"translation.x": -0.0,
-						"translation.y": 561.0,
+						"translation.x": 0.0,
+						"translation.y": 23718.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "Node/3-NodeFunda/3-SerialFlow/rss_feeds.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 34,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								34,
+								34
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -532,7 +542,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 211.0
+		"height": 377.0
 	},
 	"output.find_results":
 	{
