@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"iff",
+				"iffy	iffy"
+			],
+			[
 				"serv",
 				"server	server.js"
 			],
@@ -48,27 +52,27 @@
 	"buffers":
 	[
 		{
-			"file": "/C/Mean/Node/0-ChatServer/server.js",
+			"file": "/C/Mean/Node/3-NodeFunda/4-ParallelFlow/wordcount.js",
 			"settings":
 			{
-				"buffer_size": 1247,
+				"buffer_size": 1047,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/C/Mean/Node/0-ChatServer/public/index.html",
+			"file": "/C/Mean/Node/3-NodeFunda/4-ParallelFlow/text/hippo.txt",
 			"settings":
 			{
-				"buffer_size": 840,
-				"line_ending": "Windows"
+				"buffer_size": 29,
+				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/C/Mean/Node/1-HelloWorld/main.js",
+			"file": "/C/Mean/Node/3-NodeFunda/4-ParallelFlow/text/human.txt",
 			"settings":
 			{
-				"buffer_size": 424,
-				"line_ending": "Windows"
+				"buffer_size": 18,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -145,17 +149,28 @@
 	"expanded_folders":
 	[
 		"/C/Mean/Angular",
-		"/C/Mean/Angular/0-GitHubApp",
-		"/C/Mean/Angular/5-CustomDirectives/3-Scoping",
 		"/C/Mean/Angular/6-Service",
 		"/C/Mean/Angular/6-Service/3-Github",
 		"/C/Mean/Node",
 		"/C/Mean/Node/0-ChatServer",
-		"/C/Mean/Node/0-ChatServer/public",
-		"/C/Mean/Node/1-HelloWorld"
+		"/C/Mean/Node/1-HelloWorld",
+		"/C/Mean/Node/3-NodeFunda",
+		"/C/Mean/Node/3-NodeFunda/2-EventEmitters",
+		"/C/Mean/Node/3-NodeFunda/4-ParallelFlow",
+		"/C/Mean/Node/3-NodeFunda/4-ParallelFlow/text",
+		"/C/Mean/Node/node_modules"
 	],
 	"file_history":
 	[
+		"/C/Mean/Node/3-NodeFunda/4-ParallelFlow/text",
+		"/C/Users/Harit_2/AppData/Roaming/Sublime Text 3/Packages/User/iffy.sublime-snippet",
+		"/C/Mean/Node/3-NodeFunda/3-SerialFlow/random_story.js",
+		"/C/Mean/Node/3-NodeFunda/3-SerialFlow/rss_feeds.txt",
+		"/C/Mean/Node/3-NodeFunda/1-nodemodules/test-currency.js",
+		"/C/Mean/Node/0-ChatServer/public/stylesheets/style.css",
+		"/C/Mean/Node/0-ChatServer/public/index.html",
+		"/C/Mean/Node/0-ChatServer/lib/chat_server.js",
+		"/C/Mean/Node/0-ChatServer/server.js",
 		"/C/Mean/Node/1-HelloWorld/events.js",
 		"/C/Mean/Angular/0-GitHubApp/gitHub.js",
 		"/C/Users/Harit_2/AppData/Roaming/Sublime Text 3/Packages/JSHint Gutter/JSHint.sublime-settings",
@@ -241,28 +256,28 @@
 			[
 				{
 					"buffer": 0,
-					"file": "/C/Mean/Node/0-ChatServer/server.js",
+					"file": "/C/Mean/Node/3-NodeFunda/4-ParallelFlow/wordcount.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1247,
+						"buffer_size": 1047,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1247,
-								1247
+								1047,
+								1047
 							]
 						],
 						"settings":
 						{
-							"open_with_edit": true,
+							"auto_name": "",
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 756.0,
+						"translation.y": 324.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -270,61 +285,58 @@
 				},
 				{
 					"buffer": 1,
-					"file": "/C/Mean/Node/0-ChatServer/public/index.html",
+					"file": "/C/Mean/Node/3-NodeFunda/4-ParallelFlow/text/hippo.txt",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 840,
+						"buffer_size": 29,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								557,
-								557
+								4,
+								9
 							]
 						],
 						"settings":
 						{
-							"open_with_edit": true,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/C/Mean/Node/1-HelloWorld/main.js",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 424,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/Mean/Node/3-NodeFunda/4-ParallelFlow/text/human.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 18,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								18,
+								18
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -363,7 +375,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 140.0
+		"height": 203.0
 	},
 	"output.find_results":
 	{

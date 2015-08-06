@@ -22,7 +22,7 @@
       feedList = feedList
       .toString()
       .replace(/^\s+|\s+$/g, '')
-      .split("\n");
+      .split('\n');
       //console.log(feedList);
       var random = Math.floor(Math.random()*feedList.length);
       next(null, feedList[random]);
