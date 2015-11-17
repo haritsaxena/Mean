@@ -3,27 +3,43 @@
 	var id3 = require('id3js');
 	var fs=require('fs'), path = require('path');
 
-	var dir='/home/harit/Music/bollywood new/';
+	var dir='/home/harit/Music/Songs/Hindi/2009/';
 
 	fs.readdir(dir,function(err,files){
 		if (err) throw err;
 		var c=0;
 		files.forEach(function(file){
 			var filePath = path.join(dir, file);
+
 			var stat = fs.statSync(filePath);
-	        	// console.log(filePath);
+	        	//console.log(path.extname(file));
 	        	if (stat.isFile()){
+					//console.log('old path:' + filePath + ' new path:' + dir + '/' + file);
 	        		id3({ file: filePath, type: id3.OPEN_LOCAL }, function(err, tags) {
 	        			if (err){
-	        				return err;
-	        			}
+	        				console.log("failed for file" + file);
+	        				return err ;
+	        			}	
+
+	        			var album = tags.album;
 						//console.log(tags);
-						replaceNullChars(tags.album, function(foldername,err){
-							// console.log('old path:' + filePath + ' new path:' + dir + foldername + '/' + file);
+						if (tags.album == null)
+						{
+							album = 'NoAlbum';	
+						}
+
+						replaceInvalidChars(album, function(foldername, err){
+
 							// console.log();
+							if (err)
+							{
+								 console.log('old path:' + filePath + ' new path:' + dir + foldername + '/' + file + 'error:' + err);
+							}
 
 							ensureExists(dir + foldername, function(err){
-								if (err) throw err;
+								if (err) {
+									console.log("failed" + err);
+								}
 
 								var newfile = dir + foldername + '/' + file;
 								move(filePath, newfile, function(err){
@@ -38,7 +54,6 @@
 						});
 						
 					});
-
 	        		c++;
 	        	}
 	        });
@@ -58,7 +73,7 @@
 		fs.rename(oldPath, newPath, function (err) {
 			if (err) {
 				if (err.code === 'EXDEV') {
-					copy();
+					copy(oldPath, newPath, callback);
 				} else {
 					callback(err);
 				}
@@ -68,7 +83,7 @@
 		});
 	}
 
-	function copy () {
+	function copy (oldPath, newPath, callback) {
 		var readStream = fs.createReadStream(oldPath);
 		var writeStream = fs.createWriteStream(newPath);
 		newPath = newPath.replace(' - Songspk.name', '');
@@ -84,9 +99,12 @@
 		readStream.pipe(writeStream);
 	}
 
-	function replaceNullChars(stringname,cb){
+	function replaceInvalidChars(stringname, cb){
+		//console.log("Folder name passed" + stringname);
 		var string = stringname.replace('\0', '');
 		string = string.replace(/\0/g, '');
+		string = string.replace(/[^\w\s]/gi, '');
+		//console.log("Folder name generated" + string);
 		cb(string);
 	}
 }());
