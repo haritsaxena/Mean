@@ -1,0 +1,177 @@
+ExternalSystem,EnvName,URL
+SMS,DV1,https://smsdv1app01.dev.ibu.geico.net:4086/sms/restService
+SMS,IN1,https://smsdv1app01.dev.ibu.geico.net:4086/sms/restService
+SMS,UT1,https://smslt2slb01.geico.net/sms/restService
+SMS,LT1,https://smslt2slb01.geico.net/sms/restService
+SMS,FT1,https://smslt2slb01.geico.net/sms/restService
+SMS,TR1,
+SMS,PD1,https://smspd2slb01.geico.net/sms/restService
+,,
+,,
+IES,DV1,https://iesdv1app01.geico.net:4086/axis2/services/SESService?wsdl
+IES,IN1,https://iesdv1app01.geico.net:4086/axis2/services/SESService?wsdl
+IES,UT1,https://iesus1slb01.geico.net/axis2/services/SESService?wsdl
+IES,LT1,https://iesus1slb01.geico.net/axis2/services/SESService?wsdl
+IES,FT1,https://iesus1slb01.geico.net/axis2/services/SESService?wsdl
+IES,TR1,
+IES,PD1,https://iespd1slb01.geico.net/axis2/services/SESService?wsdl
+,,
+,,
+MSI Client,DV1,https://clientservices-nonprod.geico.net
+MSI Client,IN1,https://clientservicesapi-int.lb.geicoddc.net/ClientBusinessServices/v1
+MSI Client,UT1,https://clientservicesapi-user.lb.geicoddc.net/ClientBusinessServices/v1
+MSI Client,LT1,
+MSI Client,FT1,
+MSI Client,TR1,
+MSI Client,PD1,
+,,
+,,
+BillingBusinessService,DV1,https://bilbbs.dv1.bilbbs.aze1.cloud.geico.net
+BillingBusinessService,IN1,https://bilbbs.in1.bilbbs.aze1.cloud.geico.net
+BillingBusinessService,UT1,https://bilbbs.ut1.bilbbs.aze1.cloud.geico.net
+BillingBusinessService,LT1,https://bilbbs.lt1.bilbbs.aze1.cloud.geico.net/
+BillingBusinessService,FT1,https://bilbbs.ft1.bilbbs.aze1.cloud.geico.net/
+BillingBusinessService,TR1,https://bilbbs.tr1.bilbbs.aze1.cloud.geico.net/
+BillingBusinessService,PD1,https://bilbbs.pd1.bilbbs.aze1.cloud.geico.net/
+,,
+,,
+Billing ADC,DV1,https://gzebadcdv1app05.geicoddc.net/DuckCreek/DCTServer.aspx
+Billing ADC,IN1,https://GZEBADCIN1APPILB.geicoddc.net/DuckCreek/dctserver.aspx
+Billing ADC,UT1,https://gzebadcus1appilb.geicoddc.net/Duckcreek/Dctserver.aspx
+Billing ADC,LT1,
+Billing ADC,FT1,
+Billing ADC,TR1,
+Billing ADC,PD1,
+,,
+,,
+Policy API,DV1,https://172.32.175.93/policy/v1
+Policy API,IN1,https://10.16.39.201/policyapi/v1
+Policy API,UT1,https://10.16.39.202/policyapi/v1
+Policy API,LT1,
+Policy API,FT1,
+Policy API,TR1,
+Policy API,PD1,
+,,
+,,
+Policy ARR,DV1,no need of ARR as it is in NP1
+Policy ARR,IN1,https://10.16.31.220/ppapiei1/policyApi/v1/
+Policy ARR,UT1,https://10.16.31.220/ppapieu1/policyApi/v1/
+Policy ARR,LT1,
+Policy ARR,FT1,
+Policy ARR,TR1,
+Policy ARR,PD1,
+,,
+,,
+Policy Activity,DV1,https://172.32.175.237/api/v1/policy-activity
+Policy Activity,IN1,https://10.16.39.220/api/v1/policy-activity
+Policy Activity,UT1,https://10.16.39.213/api/v1/policy-activity
+Policy Activity,LT1,
+Policy Activity,FT1,
+Policy Activity,TR1,
+Policy Activity,PD1,
+,,
+,,
+Policy ADC API,DV1,https://gzeedgedv1app02.geicoddc.net/DuckCreek/DCTServer.aspx
+Policy ADC API,IN1,https://policydc-ei1.lb.geicoddc.net/DuckCreek/DCTServer.aspx
+Policy ADC API,UT1,https://policydc-eu1.lb.geicoddc.net/DuckCreek/DCTServer.aspx
+Policy ADC API,LT1,
+Policy ADC API,FT1,
+Policy ADC API,TR1,
+Policy ADC API,PD1,
+,,
+,,
+Policy ADC ARR,DV1,https://172.32.183.25/adcdv1/DuckCreek/DCTServer.aspx
+Policy ADC ARR,IN1,https://10.16.31.220/adcei1/DuckCreek/DCTServer.aspx
+Policy ADC ARR,UT1,https://10.16.31.220/adceu1/DuckCreek/DCTServer.aspx
+Policy ADC ARR,LT1,
+Policy ADC ARR,FT1,
+Policy ADC ARR,TR1,
+Policy ADC ARR,PD1,
+,,
+,,
+Policy activity Service ARR,DV1,Not needed
+Policy activity Service ARR,IN1,https://10.16.31.220/pasei1/api/v1/policy-activity
+Policy activity Service ARR,UT1,https://10.16.31.220/paseu1/api/v1/policy-activity
+Policy activity Service ARR,LT1,
+Policy activity Service ARR,FT1,
+Policy activity Service ARR,TR1,
+Policy activity Service ARR,PD1,
+,,
+,,
+Forms Activity Service,DV1,https://172.32.175.225/api/v1/forms-activity
+Forms Activity Service,IN1,https://10.16.39.214/api/v1/forms-activity
+Forms Activity Service,UT1,https://10.16.39.215/api/v1/forms-activity
+Forms Activity Service,LT1,
+Forms Activity Service,FT1,
+Forms Activity Service,TR1,
+Forms Activity Service,PD1,
+,,
+,,
+Forms Activity Service ARR,DV1,Not needed
+Forms Activity Service ARR,IN1,https:// 10.16.31.220/fasei1/api/v1/forms-activity
+Forms Activity Service ARR,UT1,https:// 10.16.31.220/faseu1/api/v1/forms-activity
+Forms Activity Service ARR,LT1,
+Forms Activity Service ARR,FT1,
+Forms Activity Service ARR,TR1,
+Forms Activity Service ARR,PD1,
+,,
+,,
+RDS,DV1,https://nerds-int.lb.geicoddc.net/rds/v1
+RDS,IN1,https://nerds-int.lb.geicoddc.net/rds/v1
+RDS,UT1,https://nerds-int.lb.geicoddc.net/rds/v1
+RDS,TR1,
+RDS,PD1,
+,,
+,,
+JOURNEY,DV1,http://svcdv4app01.dev.ibu.geico.net:9084/journey/
+JOURNEY,IN1,http://journey.int.ibu.geico.net/journey/
+JOURNEY,UT1,http://journey.us.ibu.geico.net/journey/
+JOURNEY,LT1,
+JOURNEY,FT1,
+JOURNEY,TR1,
+JOURNEY,PD1,
+,,
+,,
+EO,DV1,https://eoodv1app01.geico.net/Orchestrator/api/Correspondence/GenerateDocument
+EO,IN1,https://EOOIN1SLB01.geico.net/Orchestrator/api/Correspondence/GenerateDocument
+EO,UT1,https://EOOUS1SLB01.geico.net/Orchestrator/api/Correspondence/GenerateDocument
+EO,LT1,https://EOOLT1SLB01.geico.net/Orchestrator/api/Correspondence/GenerateDocument
+EO,FT1,
+EO,TR1,
+EO,PD1,https://EOOPD1SLB01.geico.net/Orchestrator/api/Correspondence/GenerateDocument
+,,
+,,
+TMI,DV1,FRWS2426.Geico.Corp.Net\SQL1 
+TMI,IN1,FRWS2426.Geico.Corp.Net\SQL1
+TMI,UT1,FRWS3825SQL1.GEICO.CORP.NET\SQL1
+TMI,LT1,
+TMI,FT1,
+TMI,TR1,
+TMI,PD1,
+,,
+,,
+ENIGMA,DV1,https://engdv1app01.dev.ibu.geico.net:4086
+ENIGMA,IN1,http://172.18.34.66:9086/geico_enigma/onetmatch
+ENIGMA,UT1,http://172.18.42.69:9086/geico_enigma/onetmatch
+ENIGMA,LT1,
+ENIGMA,FT1,
+ENIGMA,TR1,
+ENIGMA,PD1,
+,,
+,,
+UMBRELLA,DV1, http://GZDV-APP120.dev.geicoddc.net:8702/policyapi/v1/
+UMBRELLA,IN1,
+UMBRELLA,UT1,
+UMBRELLA,LT1,
+UMBRELLA,FT1,
+UMBRELLA,TR1,
+UMBRELLA,PD1,
+,,
+,,
+LISA,DV1,https://np-lisa-dv1.geicoddc.net
+LISA,IN1,https://np-lisa-in1.geicoddc.net
+LISA,UT1,https://np-lisa-ut1.geico.net
+LISA,LT1,
+LISA,FT1,
+LISA,TR1,
+LISA,PD1,

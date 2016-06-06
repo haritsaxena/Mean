@@ -1,0 +1,8 @@
+ExternalSystem,EnvName,URL
+Insite Discount,Insite,https://svcdv4app01.dev.ibu.geico.net/insite/webservices/discount/quote
+Insite Discount,Insite,http://172.18.34.67:9085
+Insite Discount,Insite,http://172.18.42.70:9085
+Insite Discount,Insite,http://172.18.38.56:9085
+Insite Discount,Insite,http://172.18.42.71:9085
+Insite Discount,Insite,http://172.18.42.72:9085
+Insite Discount,Insite,http://172.18.46.50:9085

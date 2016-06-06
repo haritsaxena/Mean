@@ -6,11 +6,11 @@ var obj = {
   },
 }
 
-/*
+
 function hello(){
   return this.username;
 }
-*/
+
 
 var obj1 = {
   hello : hello,
@@ -24,5 +24,5 @@ var obj2 = {
 
 
 //obj();
-obj1.hello();
+console.log(obj1.hello());
 //obj2.hello();
